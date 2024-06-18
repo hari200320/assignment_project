@@ -10,4 +10,4 @@ def calculate(request):
         'square': square,
         'factorial': factorial
     }
-    return render(request, 'result.html', context)
+    return render(request, 'app51result.html', context)
